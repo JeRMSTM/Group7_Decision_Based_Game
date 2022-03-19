@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Deduyo_Decision_Based_GameG7</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="startButton">Start Game</string>
+    <string name="desc">yellow begone</string>
+    <string name="Title">Can Polymaths learn how to fall in love?</string>
+
+
+    <string-array name="intro_default">
+        //txtBox
+        <item>Huh? Class has been dismissed. Oh well, I better keep going.</item>
+
+        //charName
+        <item>Nozomi</item>
+    </string-array>
+
+    <string-array name="turn_1">
+        //txtBox
+        <item>Hey Nozomi-san, have you found a club yet?</item>
+
+        //charName
+        <item>Student Council President</item>
+
+    </string-array>
+
+</resources>
