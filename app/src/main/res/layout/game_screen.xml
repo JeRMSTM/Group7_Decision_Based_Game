@@ -16,10 +16,48 @@
         android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/txtBox"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.656"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/mitsuru"
+        android:layout_width="268dp"
+        android:layout_height="215dp"
+        android:contentDescription="@string/desc"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/txtBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/mitsuru" />
+
+    <ImageView
+        android:id="@+id/ryoku"
+        android:layout_width="268dp"
+        android:layout_height="215dp"
+        android:contentDescription="@string/desc"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/txtBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ryoku" />
+
+    <ImageView
+        android:id="@+id/sato"
+        android:layout_width="268dp"
+        android:layout_height="215dp"
+        android:contentDescription="@string/desc"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/txtBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/satoooo" />
 
     <TextView
         android:id="@+id/charName"
@@ -43,7 +81,7 @@
         android:id="@+id/txtBox"
         android:layout_width="579dp"
         android:layout_height="77dp"
-        android:layout_marginStart="84dp"
+        android:layout_marginStart="76dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/my_border"
         android:focusable="true"
@@ -64,6 +102,7 @@
         android:background="@drawable/arrow_up"
         android:contentDescription="@string/desc"
         android:gravity="center"
+        android:onClick="onClick"
         android:rotation="180"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -7,22 +7,236 @@
     <string name="desc">yellow begone</string>
     <string name="Title">Can Polymaths learn how to fall in love?</string>
 
+    //DISCLAIMER: apostrophe doesnt work so dont use that symbol
+
+    //Story Progression
 
     <string-array name="intro_default">
+        //charName
+        <item>Nozomi</item>
+
         //txtBox
         <item>Huh? Class has been dismissed. Oh well, I better keep going.</item>
 
-        //charName
-        <item>Nozomi</item>
+        //buttons
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
     </string-array>
 
+
     <string-array name="turn_1">
+        //charName
+        <item>Class President</item>
+
         //txtBox
         <item>Hey Nozomi-san, have you found a club yet?</item>
 
+        //buttons
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="turn_2">
         //charName
-        <item>Student Council President</item>
+        <item>Class President</item>
+
+        //txtBox
+        <item>Hey Nozomi-san, have you found a club yet?</item>
+
+        //buttons
+        <item>No I havent, why do you ask?</item>
+        <item>No but Ill be totally fine!</item>
+        <item></item>
+        <item></item>
 
     </string-array>
+
+    <string-array name="turn_3">
+        //charName
+        <item>Class President</item>
+
+        //txtBox
+        <item>Oh, about that... Today is the deadline for the club annual fair. You better hurry up!</item>
+
+        //buttons
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+    </string-array>
+
+    <string-array name="turn_4">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>My bad! I totally forgot about that! Thanks for reminding me!</item>
+
+        //buttons
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+    </string-array>
+
+
+
+    <string-array name="turn_5">
+        //charName
+        <item>Class President</item>
+
+        //txtBox
+        <item>No problem Nozomi-san! Im pretty sure you can find a club. After all, you are the famed Virtuoso Maiden.</item>
+
+        //buttons
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+    </string-array>
+
+    <string-array name="turn_6">
+        //charName
+        <item>Class President</item>
+
+        //txtBox
+        <item>No problem Nozomi-san! Im pretty sure you can find a club. After all, you are the famed Virtuoso Maiden.</item>
+
+        //buttons
+        <item>You bet!</item>
+        <item>I still dont know why people call me that. Anyways its getting late so Ill head home now.</item>
+        <item></item>
+        <item></item>
+
+    </string-array>
+
+    <string-array name="turn_7">
+        //charName
+        <item></item>
+
+        //txtBox
+        <item>Nozomi tries to get into every club but her  applications get rejected due to three  main reasons which are her outstanding ability to  excel in any club, her cold demeanor, and the club roster being full.</item>
+
+        //buttons
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+    </string-array>
+
+    <string-array name="turn_8">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>Im so tired of running around the campus around the campus! Im running out of options now. Now what should I do? Wait, isnt that-</item>
+
+        //buttons
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+    </string-array>
+
+    <string-array name="turn_9">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>Im so tired of running around the campus around the campus! Im running out of options now. Now what should I do? Wait, isnt that-</item>
+
+        //buttons
+        <item>Getsumei Ryokou?</item>
+        <item>Kikoutei Mitsuru?</item>
+        <item></item>
+        <item></item>
+
+    </string-array>
+
+    <string-array name="ryoku_route1"> //ryoku route (also turn 10 if you pick ryoku)
+        //charName
+        <item>Ryoku</item>
+
+        //txtBox
+        <item>Nozomi! My rival in academic competitions during middle school.</item>
+
+        //buttons
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+    </string-array>
+
+    <string-array name="mitsuru_route1"> //mitsuru route (also turn 10 if you pick mitsuru)
+        //charName
+        <item>Mitsuru</item>
+
+        //txtBox
+        <item>Well if it isnt Nozomi-san, the star player of the womens volleyball team in Hyaku High School.</item>
+
+        //buttons
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+    </string-array>
+
+    <string-array name="turn_11">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>Its been a while! What brings you here?</item>
+
+        //buttons
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+    </string-array>
+
+    <string-array name="turn_12">
+        //charName
+        <item>Mitsuru</item>
+
+        //txtBox
+        <item>We suddenly bumped into each other because we both couldnt find a club.</item>
+
+        //buttons
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+    </string-array>
+
+    <string-array name="turn_13">
+        //charName
+        <item>Nozomi</item>
+
+        //txtBox
+        <item>Ive been thinking about that as well. We are running out of options here, unless-</item>
+
+        //buttons
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+    </string-array>
+
+
 
 </resources>
